@@ -17,6 +17,8 @@ WriteMakefile(
         'HTML::TableExtract' => 0,
         'XML::Simple'        => 0,
         'HTML::TreeBuilder'  => 0,
+        'IO::All'            => 0,
+        'HTML::ElementTable' => 0,
     },
     dist  => { COMPRESS => 'gzip -9f', SUFFIX => 'gz', },
     clean => { FILES    => 'Net-Parliament-* cache/*' },

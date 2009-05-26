@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               Net-Parliament
-version:            0.01
+version:            0.02
 abstract:           Scrape data from parl.gc.ca
 author:
     - Luke Closs <cpan@5thplane.com>
@@ -11,8 +11,10 @@ configure_requires:
 build_requires:
     ExtUtils::MakeMaker:  0
 requires:
+    HTML::ElementTable:  0
     HTML::TableExtract:  0
     HTML::TreeBuilder:   0
+    IO::All:             0
     Moose:               0
     Test::More:          0
     XML::Simple:         0
